@@ -1,0 +1,16 @@
+[project]
+name = "deepface-bench"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "deepface>=0.0.96",
+    "pyinstrument>=5.1.1",
+    "tf-keras>=2.20.1",
+]
+
+[dependency-groups]
+dev = [
+    "devtools>=0.12.2",
+]
